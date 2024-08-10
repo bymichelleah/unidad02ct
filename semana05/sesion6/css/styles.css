@@ -1,0 +1,20 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: red;
+
+}
+.fondo-amarillo{
+    color: red;
+    background-color: yellow;
+}
+.negrita{
+    background-color: pink;
+    font-weight: bold;
+}
+#texto-grande{
+    font-size: 30px;
+}
+
+

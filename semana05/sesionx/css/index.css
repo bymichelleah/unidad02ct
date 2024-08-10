@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: cornflowerblue;
+}
+
+/*Selector combinado de descendente*/
+.contenedor p {
+  color: darksalmon;
+}
+/*Selector multiple*/
+h1,
+h2,
+h3 {
+  color: darkseagreen;
+}
+
+/*Selector combinado de descendente*/
+.contenedor p {
+  color: rgb(233, 122, 222);
+}
+/*Selector hijo directo*/
+.contenedor > p {
+  color: khaki;
+}
+
+/*Pseudoclases*/
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(121, 94, 255);
+}
+
+/*BOTON*/
+.btn {
+  display: block;
+  background-color: cadetblue;
+  width: 90px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 5px;
+  border: 3px solid #000;
+}
+
+.btn:visited {
+  color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+  background-color: crimson;
+  color: rgb(30, 116, 202);
+}

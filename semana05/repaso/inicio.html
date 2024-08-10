@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/inicio.css" />
+    <title>Signos Zodiacales</title>
+  </head>
+  <body>
+    <h1>ADIVINA LOS SIGNOS ZODIACALES</h1>
+    <!--Pantalla incial-->
+    <div id="pantalla-inicial">
+      <p>¿A qué signo pertenece la imagen?</p>
+      <button class="btn">COMENZAR A JUGAR</button>
+    </div>
+
+    <!--Pantalla de juego-->
+    <div class="pantalla-juego" id="pantalla-juego">
+      <img src="img/gato.jpg" alt="" id=" x" />
+      <div class="opciones">
+        <div class="opcion" id="op0">
+          <div class="letra" id="l0">A</div>
+          <div class="nombre" id="n0">OPCION A</div>
+        </div>
+
+        <div class="opcion" id="op1">
+          <div class="letra" id="l1">B</div>
+          <div class="nombre" id="n1">OPCION B</div>
+        </div>
+
+        <div class="opcion" id="op2">
+          <div class="letra" id="l2">C</div>
+          <div class="nombre" id="n2">OPCION C</div>
+        </div>
+      </div>
+    </div>
+    <!--Pantalla final-->
+    <div id="pantalla-final">
+      <h2>CORRECTAS: <span>3</span></h2>
+      <h2>INCORRECTAS: <span>3</span></h2>
+      <button class="btn">VOLVER AL INICIO</button>
+    </div>
+    <footer>Desarrollado por GIRLS TEC</footer>
+  </body>
+</html>

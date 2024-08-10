@@ -1,0 +1,23 @@
+* {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+main {
+  margin: 40px;
+}
+
+.campo {
+  margin: 20px 0;
+}
+
+.tab {
+  padding-left: 4em;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+#enviar {
+  padding: 5px 15px;
+}

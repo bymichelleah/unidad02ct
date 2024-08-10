@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+/*ESTILOS GENERALES*/
+* {
+  box-sizing: border-box;
+  font-family: "Mochiy Pop One";
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1 {
+  width: fit-content;
+  background-color: #fff;
+  margin: 40px auto;
+  border-radius: 60px;
+  box-shadow: 5px 5px 0 #000;
+  padding: 20px 30px;
+}
+
+/*FALTARIA EL FOOTER*/
+
+/*PANTALLA INICIAL*/
+#pantalla-inicio {
+  display: block;
+}
+
+/*PANTALLA JUEGO*/
+#pantalla-juego {
+  display: none;
+}
+
+/*PANTALLA FINAL*/
+#pantalla-final {
+  display: none;
+}

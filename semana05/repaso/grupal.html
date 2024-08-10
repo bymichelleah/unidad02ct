@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TRIVIA GRUPAL</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <center>
+  <h1> ADIVINA LA BANDERA </h1>
+  <script src="script.js"></script>
+
+  <!-- Pantalla inicial -->
+  <div id="Pantalla-inicial" >
+  <p>¿A qué país pertenece esta bandera?</p>
+    <button class="btn">COMENZAR</button>
+  </div>
+
+  <!-- Pantalla juego -->
+  <div class="pantalla-juego" id="pantalla-juego">
+    <br />
+    <img src="img/bandera portugal.png" width="300" height="250" alt="" id="imgbandera">
+    <div class="opciones">
+      <div class="opcion" id="op0">
+      <div class="letra" id="l0">A</div>
+      <div class="nombre" id="n0">opcion 0</div>
+    </div>
+    <div class="opcion" id="op1"> 
+    <div class="letra" id="l1">B</div>
+    <div class="nombre" id="n1">opcion 0</div>
+  </div>
+  <div class="opcion" id="op2">
+  <div class="letra" id="l2">C</div>
+  <div class="nombre" id="n2">opcion 0</div>
+  </div>
+  </div>
+  <!-- Pantalla final-->
+  <div id="Pantalla final">
+    <h2>CORRECTAS:<span>3</span></h2>
+    <h2>INCORRECTAS:<span>2</span></h2>
+    <button class="btn">VOLVER AL INICIO</button>
+  </div>
+  <footer>Desarrollado por Kay</footer>
+  </center>
+</body>
+</html>
